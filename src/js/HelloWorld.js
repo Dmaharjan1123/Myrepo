@@ -8,6 +8,7 @@ class Person
  }
 }
 
+
 let Dilip = new Person(25,30);
 let Dipesh = new Person(23,34);
 alert(Dilip.myWidth);
