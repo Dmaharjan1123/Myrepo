@@ -11,6 +11,12 @@ function toString(fact,numb){
   else if(!fact.includes('3'||'5')){
     alert('Plong');
   }
+  else if(fact.includes('3')){
+    alert('Pling');
+  }
+  else if(face.includes('5')){
+    alert('Plang');
+  }
   else if(fact.includes('5'&&'7')){
     alert('PlangPlong');
   }
@@ -20,5 +26,5 @@ function toString(fact,numb){
     alert('PlingPlangPlong');
   }
 
-    
+
   }

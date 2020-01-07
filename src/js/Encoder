@@ -1,0 +1,11 @@
+export default function HelloWorld() {
+let str = "abc";
+let b = 0;
+let newStr = ''
+for(i = 0; i<= str.length; i++){
+    b=str.charCodeAt(i);
+    newStr += String.fromCharCode(b+2);
+
+}
+console.log(newStr)
+}
